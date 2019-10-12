@@ -1,6 +1,6 @@
 {
   "name": "skrabble",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "a simple tool for dynamic data mocking",
   "main": "src/index.js",
   "scripts": {
@@ -25,9 +25,7 @@
     "url": "https://github.com/dburandt/skrabble/issues"
   },
   "homepage": "https://github.com/dburandt/skrabble#readme",
-  "dependencies": {
-    "faker": "^4.1.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "eslint": "^6.5.1",
     "eslint-config-airbnb-base": "^14.0.0",
