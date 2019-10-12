@@ -1,5 +1,5 @@
-const dataMap = require('./dataMap');
-const getRandomInt = require('./random');
+const dataMap = require('./datamap');
+const { getRandomInt } = require('./random');
 
 function skrabble(dataType) {
   if (typeof dataType !== 'string') {

@@ -14,3 +14,16 @@
   - prefix
   - suffix
   - title
+- Geography
+  - address
+  - country
+  - countryCode
+  - county
+  - latitude (OR lat)
+  - longitude (OR lon)
+  - postalCode
+  - state
+  - stateAbbr
+  - streetSuffix
+  - timeZone
+  - zipCode (OR zip)

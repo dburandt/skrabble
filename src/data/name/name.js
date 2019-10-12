@@ -1,4 +1,4 @@
-const getRandomInt = require('../../random');
+const { getRandomInt } = require('../../random');
 const firstName = require('./firstName');
 const lastName = require('./lastName');
 
