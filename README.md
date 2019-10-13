@@ -20,7 +20,7 @@ const skrabble = require(skrabble);
 console.log(skrabble('name')); // 'Jane Doe'
 ```
 
-That's it! Skrabble will return an empty string for any invalid inputs. To see the data types skrabble supports or to learn more, you can refer to the [documentation][docs].
+That's it! To see the data types skrabble supports or to learn more, you can refer to the [documentation][docs].
 
 ## Acknowledgements
 

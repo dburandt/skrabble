@@ -1,12 +1,12 @@
 const skrabble = require('../src');
 
 describe('Index tests', () => {
-  test('invalid input to return empty string', () => {
-    expect(skrabble(0)).toEqual('');
+  test('invalid input to throw error', () => {
+    expect(() => skrabble(0)).toThrowError(TypeError);
   });
 
-  test('invalid dataType to return empty string', () => {
-    expect(skrabble('nonsenseWord')).toEqual('');
+  test('invalid dataType to throw error', () => {
+    expect(() => skrabble('nonsenseWord')).toThrowError(RangeError);
   });
 
   test('valid dataType to return string.length > 0', () => {

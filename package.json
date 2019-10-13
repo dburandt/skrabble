@@ -12,9 +12,10 @@
     "url": "git+https://github.com/dburandt/skrabble.git"
   },
   "keywords": [
-    "data",
-    "mock",
-    "fuzz"
+    "javascript",
+    "fuzzing",
+    "mocking",
+    "nodejs"
   ],
   "files": [
     "/src"

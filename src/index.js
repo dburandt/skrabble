@@ -3,18 +3,14 @@ const { getRandomInt } = require('./random');
 
 function skrabble(dataType) {
   if (typeof dataType !== 'string') {
-    return '';
+    throw new TypeError('expected dataType to be a string');
   }
 
   const normalizedDataType = dataType.toLowerCase();
   const data = dataMap[normalizedDataType];
 
   if (!data) {
-    return '';
-  }
-
-  if (typeof data === 'string') {
-    return data;
+    throw new RangeError('dataType parameter not valid');
   }
 
   const randomIndex = getRandomInt(data.length);
