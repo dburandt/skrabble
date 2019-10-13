@@ -10,6 +10,8 @@ const secondNumber = getRandomIntFromInterval(0, 9);
 const thirdLetter = letter[getRandomInt(letter.length)];
 const thirdNumber = getRandomIntFromInterval(0, 9);
 
-const postalCode = `${firstLetter}${firstNumber}${secondLetter} ${secondNumber}${thirdLetter}${thirdNumber}`;
+const postalCode = [
+  `${firstLetter}${firstNumber}${secondLetter} ${secondNumber}${thirdLetter}${thirdNumber}`,
+];
 
 module.exports = postalCode;
