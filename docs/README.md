@@ -2,9 +2,9 @@
 
 ## Table of Contents
 
-- [Supported datatypes](#Supported-datatypes)
+- [Supported Field Types](#Supported-Fata-Types)
 
-## Supported datatypes
+## Supported Field Types
 
 - Name
   - name
